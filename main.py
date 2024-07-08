@@ -124,8 +124,8 @@ string5 = '99'
 var1 = True
 var2 = False
 
-print(type(var1))
-print(type(var2))
+# print(type(var1))
+# print(type(var2))
 
 # string6 = '                   i love python             '
 # string7 = string6.strip()
@@ -138,10 +138,16 @@ text4 = '-'.join(text3)
 list1 = text2.split()
 print(text4)
 
-country = 'uzbekistan'
+# country = 'uzbekistan'
+#
+# user1 = input("Enter your country:")
+# user2 = user1.lower()
+# if country == user2:
+#     print(True)
 
-user1 = input("Enter your country:")
-user2 = user1.lower()
-if country == user2:
-    print(True)
+count1 = 0
+for i in range(0, 101, 2):
+    if i % 2 == 0:
+        count1 += 1
 
+print(count1)
